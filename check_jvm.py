@@ -511,7 +511,7 @@ def main():
     if options.verbose:
         logging.basicConfig(level=logging.DEBUG, format=LOG_FORMAT)
     else:
-        logging.basicConfig(level=logging.WARNING, format=LOG_FORMAT)
+        logging.basicConfig(level=logging.CRITICAL, format=LOG_FORMAT)
 
     logging.debug("START")
 
