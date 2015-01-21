@@ -8,7 +8,7 @@
 ## Requirements
 
 - OS: Linux Kernel 2.6.18 or above
-- Python: 2.6 or 2.7
+- Java: 1.6 or above
 
 ## Usage
 
@@ -17,5 +17,5 @@
 
 ## changelog
 
-* 2015-01 0.0.1 Initial release.
+* 2015-01-21 0.0.1 Initial release.
 
