@@ -459,25 +459,25 @@ def main():
                       dest="time_warning",
                       default=200,
                       metavar="<msec>",
-                      help="Exit with WARNING status if more than value of full gc time.")
+                      help="Exit with WARNING status if more than value of full gc time. [default: %default]")
     parser.add_option("-c", "--time-critical",
                       type="int",
                       dest="time_critical",
                       default=1000,
                       metavar="<msec>",
-                      help="Exit with CRITICAL status if more than value of full gc time.")
+                      help="Exit with CRITICAL status if more than value of full gc time. [default: %default]")
     parser.add_option("-W", "--count-warning",
                       type="int",
                       dest="count_warning",
                       default=3,
                       metavar="<count>",
-                      help="Exit with WARNING status if more than value of full gc count.")
+                      help="Exit with WARNING status if more than value of full gc count. [default: %default]")
     parser.add_option("-C", "--count-critical",
                       type="int",
                       dest="count_critical",
                       default=10,
                       metavar="<count>",
-                      help="Exit with CRITICAL status if more than value of full gc count.")
+                      help="Exit with CRITICAL status if more than value of full gc count. [default: %default]")
     parser.add_option("-n", "--name",
                       type="string",
                       dest="name",
@@ -488,19 +488,19 @@ def main():
                       dest="interval",
                       default=600,
                       metavar="<path>",
-                      help="Monitoring interval (sec).")
+                      help="Monitoring interval (sec). [default: %default]")
     parser.add_option("-t", "--tempdir",
                       type="string",
                       dest="tempdir",
                       default="/tmp",
                       metavar="<path>",
-                      help="Temporary directory.")
+                      help="Temporary directory. [default: %default]")
     parser.add_option("-b", "--bin",
                       type="string",
                       dest="bin",
                       default="/usr/bin",
                       metavar="<path>",
-                      help="Java bin directory.")
+                      help="Java bin directory. [default: %default]")
     parser.add_option("-V", "--verbose",
                       action="store_true",
                       dest="verbose",
